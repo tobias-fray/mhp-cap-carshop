@@ -11,3 +11,6 @@ steps:
             space: 'dev'
         deployType: 'blue-green'
         deployTool: 'mtaDeployPlugin'
+    mailTemplate1:
+        recipients: 'tobias.fray@mhp.com'
+
