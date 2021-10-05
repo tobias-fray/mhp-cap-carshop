@@ -9,7 +9,6 @@ steps:
             apiEndpoint: 'https://api.cf.eu10.hana.ondemand.com'
             org: '94d91b13trial'
             space: 'dev'
-        deployType: 'blue-green'
         deployTool: 'mtaDeployPlugin'
     mailTemplate1:
         recipients: 'tobias.fray@mhp.com'
