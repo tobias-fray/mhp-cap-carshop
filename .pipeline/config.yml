@@ -1,0 +1,13 @@
+steps:
+    mtaBuild:
+        mtaBuildTool: 'cloudMbt'
+        platform: 'CF'
+        verbose: true
+    cloudFoundryDeploy:
+        cloudFoundry:
+            credentialsId: 'btp_cf_cred'
+            apiEndpoint: 'https://api.cf.eu10.hana.ondemand.com'
+            org: '94d91b13trial'
+            space: 'dev'
+        deployType: 'blue-green'
+        deployTool: 'mtaDeployPlugin'
